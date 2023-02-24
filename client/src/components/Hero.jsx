@@ -3,7 +3,7 @@ import hero2 from "../assets/images/hero2.jpg";
 
 const Hero = () => {
   return (
-    <div class="hero">
+    <div className="hero">
       <div className="heroCont">
         <div className="heroLeft">
           <h4>TAKE YOUR BUSINESS TO THE NEXT LEVEL</h4>

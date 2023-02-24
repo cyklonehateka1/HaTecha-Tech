@@ -1,0 +1,94 @@
+.about {
+    width: 100%;
+    padding: 50px 10%;
+    position: relative;
+    top: 10vh;
+}
+
+.aboutCont {
+    width: 100%;
+}
+
+.aboutCont>.row1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.aboutCont>.row1>.left,
+.aboutCont>.row1>.right {
+    width: 49.5%;
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.aboutCont>.row1>.left {
+    background-image: linear-gradient(to top, #0000008f,
+            rgba(0, 0, 0, 0.26)), url("../../assets/images/story.jpg");
+
+}
+
+.aboutCont>.row1>.right {
+    background-image: linear-gradient(to top, #0000008f,
+            rgba(0, 0, 0, 0.26)), url("../../assets/images/vision.jpg");
+
+}
+
+.aboutCont>.row1>.left>h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.aboutCont>.row1>.left>p {
+    color: rgb(241, 241, 241);
+    font-size: 13px;
+    word-spacing: 5px;
+}
+
+.aboutCont>.row1>.right>h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.aboutCont>.row1>.right>p {
+    color: rgb(241, 241, 241);
+    font-size: 13px;
+    word-spacing: 5px;
+}
+
+.aboutCont>.row1>.right {
+    width: 49%;
+}
+
+.aboutCont>.row2 {
+    display: flex;
+    width: 100%;
+}
+
+.aboutCont>.row2>div {
+    width: 100%;
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #0000008f,
+            rgba(0, 0, 0, 0.26)), url("../../assets/images/mission.jpg");
+    height: 300px;
+}
+
+.aboutCont>.row2>div>h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.aboutCont>.row2>div>p {
+    color: rgb(241, 241, 241);
+    font-size: 13px;
+    word-spacing: 5px;
+}
