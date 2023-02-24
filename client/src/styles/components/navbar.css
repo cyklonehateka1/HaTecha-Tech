@@ -1,0 +1,62 @@
+.navbar {
+    width: 100%;
+    padding: 15px 8%;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    height: 10vh;
+}
+
+.navCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navCont>.navLeft {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navCont>.navLeft>h2 {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(68, 68, 68);
+}
+
+.navCont>.navLeft>h2>span {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(0, 50, 143);
+
+}
+
+.navCont>.navLeft>ul {
+    display: flex;
+    list-style: none;
+}
+
+.navCont>.navLeft>ul>li {
+    margin: 0 10px;
+}
+
+.navCont>.navLeft>ul>li>a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navCont>.navRight {
+    display: flex;
+    align-items: center;
+
+}
+
+.navCont>.navRight>a {
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 5px;
+}
