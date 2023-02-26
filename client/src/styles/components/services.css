@@ -1,0 +1,28 @@
+.services {
+    width: 100%;
+    padding: 50px 10%;
+    position: relative;
+    top: 10vh;
+}
+
+.servicesCont {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.servicesCont>.left {
+    width: 30%;
+    background-image: linear-gradient(to top, #0000008f,
+            rgba(9, 2, 107, 0.596)), url("../../assets/images/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.servicesCont>.right {
+    width: 69.5%;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
