@@ -1,0 +1,228 @@
+.footer {
+    width: 100%;
+    padding: 50px 10%;
+    position: relative;
+    top: 10vh;
+    background-color: rgb(14, 14, 14);
+}
+
+.footerCont {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerCont>.left {
+    width: 32%;
+    background-color: rgb(53, 52, 52);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.footerCont>.left>img {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.footerCont>.left>p {
+    color: rgb(231, 231, 231);
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.footerCont>.left>h5 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footerCont>.left>.icons {
+    display: flex;
+}
+
+.footerCont>.left>.icons>a {
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerCont>.left>.icons>.twitter {
+    background-color: #1D9BF0;
+}
+
+.footerCont>.left>.icons>.ig {
+    background-color: #FF3041;
+}
+
+.footerCont>.left>.icons>.linkedin {
+    background-color: #468BD1;
+}
+
+.footerCont>.center {
+    width: 32%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(53, 52, 52);
+    border-radius: 5px;
+}
+
+.footerCont>.center>.email {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.footerCont>.center>.email>div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.footerCont>.center>.email>p {
+    font-size: 30px;
+    color: #468BD1;
+}
+
+.footerCont>.center>.email>div>a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.footerCont>.center>.email>div>span {
+    font-size: 12px;
+    margin-top: 1px;
+    color: rgb(184, 184, 184);
+}
+
+.footerCont>.center>h4 {
+    font-size: 22px;
+    color: rgb(248, 248, 248);
+    margin-bottom: 10px;
+}
+
+.footerCont>.center>hr {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1.5px solid #468BD1;
+}
+
+.footerCont>.center>.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerCont>.center>.links>.left,
+.footerCont>.center>.links>.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerCont>.center>.links>.left>a,
+.footerCont>.center>.links>.right>a {
+    text-decoration: none;
+    margin: 10px 0;
+    color: rgb(189, 189, 189);
+}
+
+.footerCont>.right {
+    width: 32%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(53, 52, 52);
+    border-radius: 5px;
+}
+
+.footerCont>.right>.tel {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.footerCont>.right>.tel>div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.footerCont>.right>.tel>p {
+    font-size: 30px;
+    color: #468BD1;
+}
+
+.footerCont>.right>.tel>div>a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.footerCont>.right>.tel>div>span {
+    font-size: 12px;
+    margin-top: 1px;
+    color: rgb(184, 184, 184);
+}
+
+.footerCont>.right>h4 {
+    font-size: 22px;
+    color: rgb(248, 248, 248);
+    margin-bottom: 10px;
+}
+
+.footerCont>.right>hr {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1.5px solid #468BD1;
+}
+
+.footerCont>.right>p {
+    font-size: 14px;
+    color: rgb(236, 236, 236);
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.footerCont>.right>form {
+    width: 100%;
+    display: flex;
+}
+
+.footerCont>.right>form>input {
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: rgb(85, 85, 85);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+    color: white;
+    padding: 0px 20px;
+}
+
+.footerCont>.right>form>input::placeholder {
+    color: rgb(160, 160, 160);
+    font-size: 16px;
+}
+
+.footerCont>.right>form>button {
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #468BD1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
