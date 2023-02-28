@@ -9,6 +9,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    height: 85vh;
 }
 
 .servicesCont>.left {
@@ -18,11 +19,90 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 50px;
+    border-radius: 5px;
+}
+
+.servicesCont>.left>h4 {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.servicesCont>.left>p {
+    font-size: 14px;
+    color: rgb(236, 236, 236)
 }
 
 .servicesCont>.right {
-    width: 69.5%;
-    border: 1px solid red;
+    width: 69.1%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 32.5%);
+    justify-content: space-between;
+}
+
+.servicesCont>.right>div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.servicesCont>.right>div:hover {
+    scale: 1.02;
+}
+
+.servicesCont>.right>.web {
+    background-color: rgba(4, 240, 4, 0.14);
+    margin-bottom: 10px;
+}
+
+.servicesCont>.right>.mobile {
+    background-color: rgba(240, 98, 4, 0.14);
+    margin-bottom: 10px;
+}
+
+.servicesCont>.right>.enterprise {
+    background-color: rgba(4, 153, 240, 0.14);
+    margin-bottom: 10px;
+}
+
+.servicesCont>.right>.it {
+    background-color: rgba(216, 240, 4, 0.13);
+}
+
+.servicesCont>.right>.uxui {
+    background-color: rgba(4, 240, 209, 0.13);
+}
+
+.servicesCont>.right>.graphic {
+    background-color: rgba(185, 185, 185, 0.13);
+}
+
+.servicesCont>.right>div>img {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.servicesCont>.right>div>h5 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgb(37, 37, 37);
+}
+
+.servicesCont>.right>div>p {
+    font-size: 13px;
+    color: rgb(48, 48, 48);
+
 }
