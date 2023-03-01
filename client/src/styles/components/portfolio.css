@@ -1,0 +1,41 @@
+.portfolio {
+    width: 100%;
+    padding: 50px 10%;
+    position: relative;
+    top: 10vh;
+}
+
+.portfolioCont {
+    width: 100%;
+}
+
+.portfolioCont>h5 {
+    font-size: 25px;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.portfolioCont>p {
+    margin-bottom: 25px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.portfolioCont>.portfolios {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.portfolioCont>.portfolios>.left {
+    width: 60%;
+}
+
+.portfolioCont>.portfolios>.left>img {
+    width: 100%;
+}
+
+.portfolioCont>.portfolios>.right {
+    width: 40%;
+}
