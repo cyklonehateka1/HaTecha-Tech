@@ -6,7 +6,7 @@ export const Portfolio = () => {
   return (
     <div className="portfolio">
       <div className="portfolioCont">
-        <h5>We built these</h5>
+        <h5>We built these and more</h5>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis
           excepturi magnam ipsam eaque facere? Blanditiis quia perferendis
@@ -15,18 +15,22 @@ export const Portfolio = () => {
         </p>
         <div className="portfolios">
           <div className="left">
-            <img src={ecommerce} alt="" />
+            <a href="#">
+              <img src={ecommerce} alt="" />
+            </a>
             <h5>Ecommerce website for Shop Tech</h5>
           </div>
           <div className="right">
             <div className="top">
-              <img src={erp} alt="" />
-              <h5>
-                Our ERP for managing all kinds bussiness (still in development)
-              </h5>
+              <a href="#">
+                <img src={erp} alt="" />
+              </a>
+              <h5>HaTecha Commerce Management (still in development)</h5>
             </div>
             <div className="bottom">
-              <img src={logigInterns} alt="" />
+              <a href="#">
+                <img src={logigInterns} alt="" />
+              </a>
               <h5>Website for Logig Intership</h5>
             </div>
           </div>
