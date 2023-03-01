@@ -1,3 +1,8 @@
+import "../styles/components/testimonials.css";
+import img1 from "../assets/images/hoody.png";
+import img2 from "../assets/images/laydy_blue.png";
+import img3 from "../assets/images/manwhitesuit.png";
+import img4 from "../assets/images/woman.png";
 const Testimonials = () => {
   return (
     <div className="testimonials">
@@ -11,51 +16,47 @@ const Testimonials = () => {
         </p>
         <div className="clientsCont">
           <div className="">
-            <div className="clientImageDetCont">
-              <img src="" alt="" />
+            <div className="clientImageDetCont1">
               <div className="details">
-                <h5></h5>
-                <p></p>
+                <h5>Eric Bosomtwe</h5>
+                <p>Founder and CEO - iCreations Ghana</p>
               </div>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className="imgCont">
+              <img src="https://i.ibb.co/wd9fxVk/ecommerce-logo.png" alt="" />
             </div>
           </div>
           <div className="">
-            <div className="clientImageDetCont">
-              <img src="" alt="" />
+            <div className="clientImageDetCont2">
               <div className="details">
-                <h5></h5>
-                <p></p>
+                <h5>Isaac Amoah Mensah</h5>
+                <p>Founder and Director - Maik Young Multimedia</p>
               </div>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className="imgCont">
+              <img src="https://i.ibb.co/wd9fxVk/ecommerce-logo.png" alt="" />
             </div>
           </div>
           <div className="">
-            <div className="clientImageDetCont">
-              <img src="" alt="" />
+            <div className="clientImageDetCont3">
               <div className="details">
-                <h5></h5>
-                <p></p>
+                <h5>Emmanuel Hateka</h5>
+                <p>Software Engineer and Affiliate</p>
               </div>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className="imgCont">
+              <img src="https://i.ibb.co/wd9fxVk/ecommerce-logo.png" alt="" />
             </div>
           </div>
           <div className="">
-            <div className="clientImageDetCont">
-              <img src="" alt="" />
+            <div className="clientImageDetCont4">
               <div className="details">
-                <h5></h5>
-                <p></p>
+                <h5>Dominic Yamson</h5>
+                <p>Founder and CEO of Group Paapa Yamson</p>
               </div>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className="imgCont">
+              <img src="https://i.ibb.co/wd9fxVk/ecommerce-logo.png" alt="" />
             </div>
           </div>
         </div>
