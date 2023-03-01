@@ -5,6 +5,7 @@ import "../styles/pages/home.css";
 import Services from "../components/Services";
 import Footer from "../components/Footer";
 import Testimonials from "../components/Testimonials";
+import Portfolio from "../components/Portfolio";
 const Home = () => {
   return (
     <div className="home">
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <About />
       <Services />
+      <Portfolio />
       <Testimonials />
       <Footer />
     </div>
