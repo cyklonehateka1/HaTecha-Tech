@@ -1,59 +1,64 @@
 import "../styles/components/about.css";
+import security from "../assets/illustrations/security.svg";
+import code from "../assets/illustrations/code.svg";
+import speed from "../assets/illustrations/speed.svg";
+import team from "../assets/illustrations/team.svg";
+import experience from "../assets/illustrations/experience.svg";
+import ux from "../assets/illustrations/ux.svg";
 
 const About = () => {
   return (
     <div className="about">
       <div className="aboutCont">
-        <div className="row1">
+        <h5>About Us</h5>
+        <div>
           <div className="left">
-            <h2>Our Story</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
-              dignissimos ab harum obcaecati iste ipsam nulla accusantium quia?
-              Fugiat ex culpa temporibus sunt possimus voluptate atque quod
-              architecto vero voluptas modi cupiditate quibusdam a saepe
-              explicabo maxime reprehenderit, incidunt nostrum aspernatur velit
-              cumque? Ullam aliquid iusto facilis corporis at earum nesciunt
-              suscipit, optio odio perferendis tenetur, quia adipisci, aperiam
-              nulla ad exercitationem laudantium. Consequatur ea, quod ratione
-              quas facere aperiam repellat minima illo! Pariatur sit nulla
-              repellendus amet, cupiditate quae numquam nihil, dignissimos rem
-              aperiam neque quidem fuga cumque? Vel fuga dolores vitae culpa
-              accusamus repudiandae incidunt soluta deserunt eum?
-            </p>
+            <h5>Reasons why we might be the best fit for you.</h5>
+            <div>
+              <div className="security">
+                <img src={security} alt="" />
+                <span>Security</span>
+              </div>
+              <div className="technology">
+                <img src={code} alt="" />
+                <span>Latest Technology</span>
+              </div>
+              <div className="experience">
+                <img src={experience} alt="" />
+                <span>Experience</span>
+              </div>
+              <div className="speed">
+                <img src={speed} alt="" />
+                <span>Fast</span>
+              </div>
+              <div className="teamWork">
+                <img src={team} alt="" />
+                <span>Team Work</span>
+              </div>
+              <div className="ui">
+                <img src={ux} alt="" />
+                <span>Best UI/UX</span>
+              </div>
+            </div>
           </div>
           <div className="right">
-            <h2>Our Vission</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
-              dignissimos ab harum obcaecati iste ipsam nulla accusantium quia?
-              Fugiat ex culpa temporibus sunt possimus voluptate atque quod
-              architecto vero voluptas modi cupiditate quibusdam a saepe
-              explicabo maxime reprehenderit, incidunt nostrum aspernatur velit
-              cumque? Ullam aliquid iusto facilis corporis at earum nesciunt
-              suscipit,
+            <h2>We are a team of industry leading software engineers</h2>
+            <p className="teamP">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
+              minus quia accusamus iusto necessitatibus velit earum rem libero
+              illum mollitia, aspernatur quam. Modi quisquam sapiente
+              reprehenderit ex nam. Ipsa, autem?
+            </p>
+            <h4> Our Values</h4>
+            <p className="valuesP">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Similique debitis exercitationem ea quo labore, dolor earum, neque
+              dolorum sapiente dicta quod voluptatem sed temporibus nostrum
+              necessitatibus tempora reiciendis natus deleniti?
             </p>
           </div>
         </div>
-        <div className="row2">
-          <div>
-            <h2>Our Mission</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
-              dignissimos ab harum obcaecati iste ipsam nulla accusantium quia?
-              Fugiat ex culpa temporibus sunt possimus voluptate atque quod
-              architecto vero voluptas modi cupiditate quibusdam a saepe
-              explicabo maxime reprehenderit, incidunt nostrum aspernatur velit
-              cumque? Ullam aliquid iusto facilis corporis at earum nesciunt
-              suscipit, optio odio perferendis tenetur, quia adipisci, aperiam
-              nulla ad exercitationem laudantium. Consequatur ea, quod ratione
-              quas facere aperiam repellat minima illo! Pariatur sit nulla
-              repellendus amet, cupiditate quae numquam nihil, dignissimos rem
-              aperiam neque quidem fuga cumque? Vel fuga dolores vitae culpa
-              accusamus repudiandae incidunt soluta deserunt eum?
-            </p>
-          </div>
-        </div>
+        
       </div>
     </div>
   );
