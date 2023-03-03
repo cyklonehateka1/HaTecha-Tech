@@ -5,6 +5,9 @@ import speed from "../assets/illustrations/speed.svg";
 import team from "../assets/illustrations/team.svg";
 import experience from "../assets/illustrations/experience.svg";
 import ux from "../assets/illustrations/ux.svg";
+import honesty from "../assets/illustrations/honesty.svg";
+import solution from "../assets/illustrations/solution.svg";
+import dedication from "../assets/illustrations/dedication.svg";
 
 const About = () => {
   return (
@@ -56,9 +59,22 @@ const About = () => {
               dolorum sapiente dicta quod voluptatem sed temporibus nostrum
               necessitatibus tempora reiciendis natus deleniti?
             </p>
+            <div>
+              <div>
+                <img src={honesty} alt="" />
+                <h5>INTEGRITY & HONESTY</h5>
+              </div>
+              <div>
+                <img src={solution} alt="" />
+                <h5>SOLUTION DRIVEN</h5>
+              </div>
+              <div>
+                <img src={dedication} alt="" />
+                <h5>LOVE</h5>
+              </div>
+            </div>
           </div>
         </div>
-        
       </div>
     </div>
   );

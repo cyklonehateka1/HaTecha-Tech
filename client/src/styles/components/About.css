@@ -93,7 +93,7 @@
 .aboutCont>div>.right>h2 {
     font-size: 42px;
     color: green;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -104,5 +104,30 @@
 }
 
 .aboutCont>div>.right>.teamP {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+.aboutCont>div>.right>h4 {
+    font-size: 20px;
+}
+
+.aboutCont>div>.right>div {
+    display: flex;
+    margin-top: 10px;
+}
+
+.aboutCont>div>.right>div>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+}
+
+.aboutCont>div>.right>div>div>img {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.aboutCont>div>.right>div>div>h5 {
+    color: green;
 }

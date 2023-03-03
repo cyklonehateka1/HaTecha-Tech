@@ -1,5 +1,5 @@
 import "../styles/components/hero.css";
-import hero2 from "../assets/images/hero2.jpg";
+import { Canvas } from "@react-three/fiber";
 
 const Hero = () => {
   return (
@@ -14,7 +14,9 @@ const Hero = () => {
           <button>LET'S CONNECT NOW</button>
         </div>
         <div className="heroRight">
-          <img src={hero2} alt="" />
+          <Canvas>
+            <mesh></mesh>
+          </Canvas>
         </div>
       </div>
     </div>
