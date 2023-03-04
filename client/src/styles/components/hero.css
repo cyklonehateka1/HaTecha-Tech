@@ -5,6 +5,7 @@
     top: 10vh;
     height: 80vh;
     /* background-image: url("../../assets/images/background.jpg"); */
+    background-image: url("../../assets/images/home_bg1.jpg");
 }
 
 .heroCont {
@@ -15,7 +16,7 @@
 }
 
 .heroCont>.heroLeft {
-    width: 40%;
+    width: 50%;
 }
 
 .heroCont>.heroLeft>h4 {
@@ -29,6 +30,8 @@
     font-size: 35px;
     color: rgb(0, 50, 143);
     margin-bottom: 15px;
+
+
 }
 
 .heroCont>.heroLeft>button {
@@ -41,7 +44,10 @@
 }
 
 .heroCont>.heroRight {
-    width: 60%;
-
-
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+    border: 1px solid red
 }

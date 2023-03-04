@@ -1,6 +1,5 @@
 import "../styles/components/hero.css";
-import { Canvas } from "@react-three/fiber";
-
+import HeroCanvas from "./HeroCanvas";
 const Hero = () => {
   return (
     <div className="hero">
@@ -14,9 +13,7 @@ const Hero = () => {
           <button>LET'S CONNECT NOW</button>
         </div>
         <div className="heroRight">
-          <Canvas>
-            <mesh></mesh>
-          </Canvas>
+          <HeroCanvas />
         </div>
       </div>
     </div>
