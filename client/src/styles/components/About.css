@@ -2,7 +2,12 @@
     width: 100%;
     padding: 50px 10%;
     position: relative;
-    top: 10vh;
+    top: 7vh;
+    background-image: linear-gradient(to top, #ffffffcb,
+            rgba(238, 238, 238, 0.877)), url("../../assets/images/invent-hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .aboutCont {
