@@ -41,7 +41,7 @@ const Services = () => {
           </div>
           <div className="enterprise">
             <img src={business} alt="" />
-            <h5>Enterprice Solutions Development</h5>
+            <h5>Enterprise Solutions Development</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
               et alias ut amet dolores, rem repellat voluptas vitae libero

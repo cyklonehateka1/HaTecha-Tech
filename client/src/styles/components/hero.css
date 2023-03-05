@@ -4,8 +4,11 @@
     position: relative;
     top: 10vh;
     height: 80vh;
-    /* background-image: url("../../assets/images/background.jpg"); */
-    background-image: url("../../assets/images/home_bg1.jpg");
+    background-image: url("../../assets/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
 }
 
 .heroCont {
@@ -13,6 +16,7 @@
     display: flex;
     align-items: center;
     height: 100%;
+
 }
 
 .heroCont>.heroLeft {
@@ -30,8 +34,12 @@
     font-size: 35px;
     color: rgb(0, 50, 143);
     margin-bottom: 15px;
+}
 
-
+.heroCont>.heroLeft>h3 {
+    font-size: 20px;
+    /* color: white; */
+    margin-bottom: 15px;
 }
 
 .heroCont>.heroLeft>button {
@@ -45,9 +53,5 @@
 
 .heroCont>.heroRight {
     width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: centers;
-    border: 1px solid red
+    height: 200%;
 }
