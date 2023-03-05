@@ -4,14 +4,12 @@ import "../styles/components/heroCanvas.css";
 import Globe from "./Globe";
 const HeroCanvas = () => {
   return (
-    <div className="heroCanvas">
-      <Canvas>
-        <Stage>
-          <Globe scale={[2, 2, 2]} />
-        </Stage>
-        <OrbitControls enableZoom={false} autoRotate={true} />
-      </Canvas>
-    </div>
+    <Canvas>
+      <Stage>
+        <Globe />
+      </Stage>
+      <OrbitControls enableZoom={false} autoRotate={true} />
+    </Canvas>
   );
 };
 
