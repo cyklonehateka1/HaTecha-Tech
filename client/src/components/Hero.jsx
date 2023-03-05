@@ -6,10 +6,17 @@ const Hero = () => {
     <div className="hero">
       <div className="heroCont">
         <div className="heroLeft">
-          <h4>TAKE YOUR BUSINESS TO THE NEXT LEVEL</h4>
           <h1>
-            WITH US BY YOUR SIDE, HANDLING ALL YOUR SOFTWARE DEVELOPMENT NEEDS
+            Take you business to the globe with innovative technology solutions
           </h1>
+          <p>
+            Expand Your Reach and Accelerate Your Growth with Our Innovative
+            Technology Solutions. HaTecha specializes in developing custom
+            websites, web applications, and mobile apps to help businesses like
+            yours succeed in the global market. We also offer enterprise
+            solutions development and general IT consultancy to optimize your
+            business processes and enhance your performance.
+          </p>
           <h3>
             <Typewriter
               options={{

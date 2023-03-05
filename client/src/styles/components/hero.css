@@ -1,8 +1,8 @@
 .hero {
     width: 100%;
-    padding: 50px 10%;
+    padding: 0px 10%;
     position: relative;
-    top: 10vh;
+    top: 7vh;
     height: 80vh;
     background-image: url("../../assets/images/background.jpg");
     background-position: center;
@@ -16,30 +16,32 @@
     display: flex;
     align-items: center;
     height: 100%;
-
 }
 
 .heroCont>.heroLeft {
-    width: 50%;
-}
-
-.heroCont>.heroLeft>h4 {
-    font-size: 15px;
-    font-weight: 500;
-    color: rgb(65, 65, 65);
-    margin-bottom: 15px;
+    width: 65%;
 }
 
 .heroCont>.heroLeft>h1 {
-    font-size: 35px;
+    font-size: 34px;
     color: rgb(0, 50, 143);
+    margin-bottom: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.heroCont>.heroLeft>p {
     margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
 }
 
 .heroCont>.heroLeft>h3 {
     font-size: 20px;
-    /* color: white; */
+    color: rgb(255, 0, 0);
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .heroCont>.heroLeft>button {
@@ -49,9 +51,10 @@
     background-color: rgb(41, 143, 0);
     cursor: pointer;
     margin-top: 20px;
+    width: 40%;
 }
 
 .heroCont>.heroRight {
-    width: 50%;
-    height: 200%;
+    height: 100%;
+    width: 40%;
 }
