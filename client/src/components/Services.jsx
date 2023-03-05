@@ -1,4 +1,5 @@
 import "../styles/components/services.css";
+import "../styles/components/servicesResponsiveness.css";
 import business from "../assets/illustrations/business.svg";
 import graphic from "../assets/illustrations/graphic.svg";
 import it from "../assets/illustrations/it.svg";

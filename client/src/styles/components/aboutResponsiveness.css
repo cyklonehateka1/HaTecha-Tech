@@ -1,0 +1,95 @@
+.aboutCont>div>.right>div>div>h5 {
+    color: green;
+}
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) {
+    .about {
+        padding: 10px 10%;
+        position: relative;
+        top: 7vh;
+    }
+
+    .aboutCont>h5 {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .aboutCont>div {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .aboutCont>div>.left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .aboutCont>div>.left>h5 {
+        font-size: 19px;
+        text-align: center;
+        color: rgb(41, 41, 41);
+        margin-bottom: 15px;
+        font-weight: 600;
+
+    }
+
+    .aboutCont>div>.left>div {
+        grid-template-columns: repeat(3, 33%);
+        gap: 5px;
+    }
+
+    .aboutCont>div>.left>div>div {
+        padding: 20px 0px;
+    }
+
+    .aboutCont>div>.left>div>div>img {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .aboutCont>div>.left>div>div>span {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .aboutCont>div>.right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .aboutCont>div>.right>h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    .aboutCont>div>.right>p {
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    .aboutCont>div>.right>.teamP {
+        margin-bottom: 10px;
+    }
+
+    .aboutCont>div>.right>h4 {
+        font-size: 16px;
+    }
+
+    .aboutCont>div>.right>div {
+        flex-direction: column;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .aboutCont>div>.right>div>div {
+        width: 100%;
+        justify-content: left;
+    }
+
+    .aboutCont>div>.right>div>div>img {
+        width: 20%;
+        margin-right: 10px;
+    }
+}
