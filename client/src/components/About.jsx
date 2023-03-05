@@ -1,4 +1,5 @@
 import "../styles/components/about.css";
+import "../styles/components/aboutResponsiveness.css";
 import security from "../assets/illustrations/security.svg";
 import code from "../assets/illustrations/code.svg";
 import speed from "../assets/illustrations/speed.svg";
@@ -8,6 +9,7 @@ import ux from "../assets/illustrations/ux.svg";
 import honesty from "../assets/illustrations/honesty.svg";
 import solution from "../assets/illustrations/solution.svg";
 import dedication from "../assets/illustrations/dedication.svg";
+import { useEffect } from "react";
 
 const About = () => {
   return (
@@ -15,7 +17,7 @@ const About = () => {
       <div className="aboutCont">
         <h5>About Us</h5>
         <div>
-          <div className="left">
+          <div className="left aboutLeft" id="aboutLeft">
             <h5>Reasons why we might be the best fit for you.</h5>
             <div>
               <div className="security">
@@ -44,7 +46,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="right">
+          <div className="right" id="aboutRight">
             <h2>We are a team of industry leading software engineers</h2>
             <p className="teamP">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius

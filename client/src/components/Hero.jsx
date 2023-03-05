@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="heroCont">
-        <div className="heroLeft">
+        <div className="heroLeft fadein-left">
           <h1>
             Take you business to the globe with innovative technology solutions
           </h1>
